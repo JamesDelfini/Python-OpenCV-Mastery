@@ -33,13 +33,13 @@ img = cv2.imread(pic, 0)
 #  [175 169 144 ...  66  82  92]
 #  [161 169 162 ...  61  66  76]
 #  [154 158 167 ...  68  68  68]]
-# print(len(img[0])) # 1920 Length
+# print(len(img[0])) # 1920 Width
 # print(len(img)) # 1200 Height
 
 # Colored Format
 img = cv2.imread(pic, 1)
 print(img[0][0][0]) # Third [0] Blue Layer, [1] Green Layer, [2] Red Layer 
-print(len(img[0])) # 1920 Length
+print(len(img[0])) # 1920 Width
 print(len(img)) # 1200 Height
 
 showMsg(img)
