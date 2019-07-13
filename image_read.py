@@ -1,3 +1,4 @@
+## Python v3.7.3
 ## opencv-python v4.1.0.25
 # pip install opencv-python
 # https://docs.opencv.org/4.1.0/d1/dfb/intro.html
@@ -9,8 +10,8 @@ from general import showMsg
 import cv2
 
 ###################################
-## Description: Image
-# imread(<filename>, <flag>)
+## Description: Reading the Image
+# cv2.imread(<filename>, <flag>)
 # Flag 0 - Gray Scale(Reads the Image in Black & White)
 # Flag 1 - Colored Format(Reads the Image in RGB/Colored Format)
 ###################################
