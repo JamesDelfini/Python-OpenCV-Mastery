@@ -1,7 +1,7 @@
 ## Remain the comment configuration below for pylint source-code, bug and quality checker.
 # pylint: disable=maybe-no-member
 
-from general import showMsg
+from core.general import showMsg
 import cv2
 
 ###################################
